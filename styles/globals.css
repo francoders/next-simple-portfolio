@@ -30,3 +30,17 @@ a {
 .overflow .card-img-top:hover{
   transform: scale(1.8);
 }
+
+
+/* estilos de progress */
+
+#nprogress .bar{
+  background-color: rgb(229, 255, 0);
+}
+
+#nprogress .spinner-icon {
+  border-top-color: rgb(86, 209, 82);
+  border-left-color: rgb(255, 0, 0);
+  border-right-color: rgb(0, 26, 255);
+  border-bottom-color: rgb(200, 255, 0);
+}
