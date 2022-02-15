@@ -1,8 +1,8 @@
 import Navbar from './Navbar';
+import Head from 'next/head'; //funciona como head
 
 const Layout = ({ children }) => (
     <>
-
         <Navbar />
 
         <main className='container py-4'>
