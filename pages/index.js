@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../components/Layout'
 import {skills, projects} from '../profile'
-import Head from 'next/head'
 import Script from 'next/script'
 
 const Index = () => (
