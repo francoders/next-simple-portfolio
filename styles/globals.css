@@ -44,3 +44,22 @@ a {
   border-right-color: rgb(0, 26, 255);
   border-bottom-color: rgb(200, 255, 0);
 }
+
+/*-- SCROLLBAR --*/
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(141, 66, 199);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 41, 145);
+  border-radius: 10px;
+}
