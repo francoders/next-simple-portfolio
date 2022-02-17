@@ -27,14 +27,14 @@ const Layout = ({ children, footer = true }) => {
         <>
             <Navbar />
 
-            <main className='container py-4'>
+            <main className="container py-4">
                 {children}
             </main>
 
             {
                 footer && (
-                    <footer className='bg-info text-light text-center'>
-                        <div className='container p-4'>
+                    <footer className="bg-info text-light text-center">
+                        <div className="container p-4">
                             <h4>&copy;francorvalan</h4>
                             <p>2000 - {new Date().getFullYear()}</p>
                             <p>All rights Reserverd</p>
