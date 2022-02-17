@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import NProgress from 'nprogress'
 
-const Layout = ({ children, footer = true }) => {
+const Layout = ({  children, footer = true }) => {
 
     const router = useRouter();
 
