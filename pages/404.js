@@ -1,13 +1,13 @@
-import Layout from "../components/Layout";
-import Link from "next/link";
+import Layout from '../components/Layout';
+import Link from 'next/link';
 
 const styles = {
     custom: {
-        textDecoration: 'none',
+        textDecoration: "none",
     },
 
     centrado: {
-        margin: '40% auto',
+        margin: "40% auto",
     }
 }
 

@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import Link from 'next/link'
+import Image from 'next/image'
 import Layout from '../components/Layout'
 import {skills, projects} from '../profile'
 
@@ -10,12 +11,17 @@ const Index = () => (
         <div className="card card-body bg-light">
           <div className="row">
             <div className="col-md-4">
-              <img src="img-francisco.jpg" className="img-fluid" alt="img"></img>
+              <Image
+                src="/img-francisco.jpg"
+                className="img-fluid"
+                alt="img"
+                width={500}
+                height={600} />
             </div>
             <div className="col-md-8">
               <h2>Francisco Corvalán</h2>
               <h6>Front End Developer</h6>
-              <br/>
+              <br />
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
@@ -96,7 +102,7 @@ const Index = () => (
                     <div className="card-body">
                       <h5>{name}</h5>   
                       <p>{description}</p>
-                      <a href='#!'>Know more</a>
+                      <a href="#!">Know more</a>
                     </div>
                   </div>
                 </div>
@@ -114,8 +120,6 @@ const Index = () => (
         </div>
       </div>
     </div>
-
-
   </Layout>
 
 )
